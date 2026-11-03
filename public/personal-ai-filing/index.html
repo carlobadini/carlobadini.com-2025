@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>personal-ai-filing</title>
+<meta name="description" content="A private, read-only document filing tool used only by its owner.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>personal-ai-filing</h1>
+  <p class="lead">A private document filing tool used only by its owner, Carlo Badini. It is not offered to the public
+  and has no sign-up.</p>
+
+  <h2>What it does</h2>
+  <p>personal-ai-filing finds important documents (contracts, invoices, receipts, tax documents, statements,
+  insurance papers) across the owner's own email accounts, cloud drives, notes and local folders. It organizes them
+  into a searchable archive on the owner's own computer, so they can be found by describing their contents.</p>
+
+  <h2>How it uses Google data</h2>
+  <ul>
+    <li><strong>Gmail (read-only):</strong> reads messages that have attachments, and emails that are documents
+      themselves (such as receipts and booking confirmations), to find and archive important documents.</li>
+    <li><strong>Google Drive (read-only):</strong> indexes files in folders the owner has selected, so they can be
+      searched. Files stay where they are.</li>
+    <li>The tool never sends email, never changes, moves, renames or deletes anything, and never changes sharing
+      settings. It only requests the read-only scopes <code>gmail.readonly</code> and <code>drive.readonly</code>.</li>
+  </ul>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+<footer>Contact: <a href="mailto:catch.badini@gmail.com">catch.badini@gmail.com</a></footer>
+</body>
+</html>
